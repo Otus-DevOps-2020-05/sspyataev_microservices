@@ -33,7 +33,6 @@ sspyataev microservices repository
 * Переменные окружения внесены в файл .env. Для коммита к репу создан файл .env.example
 * Базовое имя контейнера, запускаемое через docker-compose можно задать свой, указав внутри каждого сервиса параметр container_name.
 
-
 ## ДЗ 22 урок
 Было сделано:
 * Рассмотрен prometheus и его базовый конфиг
@@ -43,3 +42,14 @@ sspyataev microservices repository
 * Рассмотрена схема добавления exporter
 * Запушены все микросервисы и prom с конфигом в docker hub
 * Ссылка на docker hub repo - https://hub.docker.com/repository/docker/sspyataev/
+
+## ДЗ 21 урок
+Было сделано:
+* Создан docker-compose для развёртывания gitlab
+* Создан проект, запушен репозиторий
+* Создан gitlab-ci.yml
+* Запущен gitlab runner
+* Рассмотрена работа с pipeline gitlab ci
+* Рассмторено создание окружений gitlab ci
+* Рассмотрена возможность управления этапами pipeline через тэги
+* Рассмотрены динамические окружения
