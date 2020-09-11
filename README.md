@@ -53,3 +53,14 @@ sspyataev microservices repository
 * Рассмторено создание окружений gitlab ci
 * Рассмотрена возможность управления этапами pipeline через тэги
 * Рассмотрены динамические окружения
+
+## ДЗ 23 урок
+Было сделано:
+* Рассмотрен и запущен cAdvisor
+* Рассмотрена и запущена Grafana
+* Добавлен datasource, импортирован дашборб с графана хаб
+* Созданы кастомные дашборды для метрик приложения и бизнес метрик
+* Использованы функции prometheus rate & histogram_quantile
+* Добален и настроен alertmanager
+* Создан вебхук для слак
+* Ссылка на docker hub repo - https://hub.docker.com/repository/docker/sspyataev/
