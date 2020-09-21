@@ -1,13 +1,12 @@
-FROM ruby:2.2
-RUN apt-get update -qq && apt-get install -y build-essential
+FROM ruby:2.2-alpine
 
-ENV APP_HOME /app
-RUN mkdir $APP_HOME
-WORKDIR $APP_HOME
+WORKDIR /app
+COPY . /app
 
-ADD Gemfile* $APP_HOME/
-RUN bundle install
-ADD . $APP_HOME
+RUN apk add --no-cache build-base && \
+    bundle install && \
+    apk del build-base && \
+    rm -rf /root/.bundle
 
 ENV COMMENT_DATABASE_HOST comment_db
 ENV COMMENT_DATABASE comments
