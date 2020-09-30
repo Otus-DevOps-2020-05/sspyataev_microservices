@@ -98,3 +98,12 @@ sspyataev microservices repository
 * Сконфигурирован TLS и переведено приложение на https
 * Создан NetworkPolicy для ограничения доступа к БД
 * Рассмотрены и созданы различные варианты хранилищ (Volume, PersistentVolume, PersistentVolumeClaim)
+
+## ДЗ 31 урок
+Было сделано:
+* Установлен helm на клиенте и tiller на сервере
+* Реорганизована структура манифестов под helm charts
+* Параметризованы шаблоны
+* Рассмотрено использование helper'ов
+* Настроен CI/CD в gitlab
+* Переписаны pipeline убрав блок autodevops
