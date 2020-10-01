@@ -107,3 +107,9 @@ sspyataev microservices repository
 * Рассмотрено использование helper'ов
 * Настроен CI/CD в gitlab
 * Переписаны pipeline убрав блок autodevops
+
+## ДЗ 32 урок
+Было сделано:
+* Развёрнут prometheus в k8s кластере
+* Настроен сбор метрик в prometheus и визуализация в grafana
+* Настроен EFK для сбора и визуализации логов
