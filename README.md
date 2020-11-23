@@ -89,3 +89,4 @@ sspyataev microservices repository
 * Создан dev namespace
 * Развёрнут кластер kubernetes в YC
 * Задеплоено приложение в созданный кластер. Скрин web-интерфейса приложения в PR.
+* Перенос ветки kubernets-2 в корректную ветку kubernetes-2
